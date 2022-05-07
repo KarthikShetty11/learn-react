@@ -7,9 +7,10 @@ function Header(){
 export default Header;
 */
 
-const Header = ()=>{
+export const Header = ()=>{
     return <h1>Namaste Header</h1>
 }
-export default Header;
+
+//export default Header;
 
 
