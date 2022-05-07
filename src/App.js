@@ -2,9 +2,15 @@ import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
 import {Header} from './components/Header';
+import Cheader from './components/Cheader';
 
 function App(){
-  return <Header/> 
+  return(
+         <div>
+           <Header/>
+           <Cheader/>
+         </div> 
+        );
 }
 
 
