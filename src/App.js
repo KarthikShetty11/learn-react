@@ -8,8 +8,9 @@ function App(){
   return(
          <div>
            <Header name="Karthik" last="Shetty"/>
-           <p>Hi There</p>
-           <Cheader/>
+           <p>Hi There, im functional components child</p>
+           <Cheader name="Karthik" last="Shetty"/>
+           <p>Hi There, im Class components child</p>
          </div> 
         );
 }
