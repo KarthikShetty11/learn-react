@@ -7,10 +7,20 @@ function Header(){
 export default Header;
 */
 
+/*
 export const Header = ()=>{
     return <h1>Namaste Header</h1>
 }
+*/
 
-//export default Header;
+export const Header = (props)=>{
+    return(
+        <div>
+            <h1>Hello, {props.name} {props.last}</h1>
+            {props.children}
+        </div>
+    )
+}
+
 
 

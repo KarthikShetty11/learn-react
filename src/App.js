@@ -7,7 +7,8 @@ import Cheader from './components/Cheader';
 function App(){
   return(
          <div>
-           <Header/>
+           <Header name="Karthik" last="Shetty"/>
+           <p>Hi There</p>
            <Cheader/>
          </div> 
         );
