@@ -3,6 +3,7 @@ import React from 'react';
 import './App.css';
 import {Header} from './components/Header';
 import Cheader from './components/Cheader';
+import Channel from './components/Channel';
 
 function App(){
   return(
@@ -11,6 +12,7 @@ function App(){
            <p>Hi There, im functional components child</p>
            <Cheader name="Karthik" last="Shetty"/>
            <p>Hi There, im Class components child</p>
+           <Channel />
          </div> 
         );
 }
