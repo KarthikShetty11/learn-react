@@ -4,6 +4,8 @@ import './App.css';
 import {Header} from './components/Header';
 import Cheader from './components/Cheader';
 import Channel from './components/Channel';
+import FunctionClick from './components/FunctionClick';
+import CFucntionClick from './components/CFuntionClick';
 
 function App(){
   return(
@@ -13,6 +15,8 @@ function App(){
            <Cheader name="Karthik" last="Shetty"/>
            <p>Hi There, im Class components child</p>
            <Channel />
+           <FunctionClick/>
+           <CFucntionClick/>
          </div> 
         );
 }
