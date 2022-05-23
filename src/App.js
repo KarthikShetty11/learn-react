@@ -6,6 +6,7 @@ import Cheader from './components/Cheader';
 import Channel from './components/Channel';
 import FunctionClick from './components/FunctionClick';
 import CFucntionClick from './components/CFuntionClick';
+import Form from './components/Form';
 
 function App(){
   return(
@@ -17,6 +18,7 @@ function App(){
            <Channel />
            <FunctionClick/>
            <CFucntionClick/>
+           <Form></Form>
          </div> 
         );
 }

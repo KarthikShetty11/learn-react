@@ -1,5 +1,4 @@
 import React from 'react';
-import Rect from 'react';
 
 class CFucntionClick extends React.Component{
     
