@@ -2,14 +2,14 @@ import React from 'react'
 
 class Form extends React.Component{
 
-    constructor(props){
-        super(props);
+    constructor(){
+        super();
         this.state={
         username:'',
         useraddress:''
+          }
         }
-      }
-
+        
       handleUsername=(event)=>{
           this.setState=({
               username:event.target.value
@@ -21,8 +21,9 @@ class Form extends React.Component{
             useraddress:event.target.value
         });
     }
-
-     handleSubmit=(event)=>{
+    
+    
+    handleSubmit=(event)=>{
         alert(`${this.state.username} ${this.state.useraddress}`);
         event.preventDefault();
      }
@@ -32,16 +33,16 @@ class Form extends React.Component{
     return(
     <form onSubmit={this.handleSubmit}>
       <div>
-      <lable>username</lable>
+      <lable>User Name</lable>
       <input type="text" value={this.state.username} onChange={this.handleUsername}></input>  
       </div>
       <div>
-      <lable>useraddress</lable>
+      <lable>Address</lable>
       <textarea value={this.state.useraddress} onChange={this.handleUseraddress}></textarea>  
       </div>
       <button>Submit</button>
     </form>
     )
-}
+   }
 }
 export default Form;
