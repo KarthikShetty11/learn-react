@@ -7,18 +7,20 @@ import Channel from './components/Channel';
 import FunctionClick from './components/FunctionClick';
 import CFucntionClick from './components/CFuntionClick';
 import Form from './components/Form';
+import Routing from './components/Routing';
 
 function App(){
   return(
          <div>
-           <Header name="Karthik" last="Shetty"/>
+           <Header name="gm" last="gn"/>
            <p>Hi There, im functional components child</p>
-           <Cheader name="Karthik" last="Shetty"/>
+           <Cheader name="gm" last="gn"/>
            <p>Hi There, im Class components child</p>
            <Channel />
            <FunctionClick/>
            <CFucntionClick/>
            <Form></Form>
+           <Routing></Routing>
          </div> 
         );
 }
